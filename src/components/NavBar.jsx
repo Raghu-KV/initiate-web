@@ -23,7 +23,7 @@ function NavBar() {
       <div className="container px-5 mx-auto flex items-center justify-between md:justify-start font-semibold h-20">
         <div className="cursor-pointer mr-24">LOGO</div>
         <div className="hidden md:flex md:items-center w-full">
-          <ul className="flex gap-4 cursor-pointer">
+          <ul className="flex cursor-pointer gap-3">
             <li className="hover:text-sky-800 duration-300">Home</li>
             <li className="hover:text-sky-800 duration-300">About Us</li>
             <li className="hover:text-sky-800 duration-300">Services</li>
@@ -35,52 +35,51 @@ function NavBar() {
         </div>
         <div ref={navRef}>
           <div className="md:hidden">
-            <div className="relative z-10" onClick={() => setNav(!nav)}>
+            <div className="relative z-20" onClick={() => setNav(!nav)}>
               {nav ? (
                 <i className="fa-solid fa-xmark fa-xl"></i>
               ) : (
                 <i className="fa-solid fa-bars fa-xl"></i>
               )}
             </div>
-
-            <div
-              className={`bg-gray-300 absolute w-2/3 h-screen top-0 right-0 z-0 duration-150 flex justify-center items-center drop-shadow-xl ${
-                nav ? "translate-x-0" : "translate-x-full"
-              } `}
-            >
-              <ul className="flex flex-col items-center gap-4 cursor-pointer">
-                <li
-                  className="hover:text-sky-800 duration-300"
-                  onClick={() => setNav(false)}
-                >
-                  Home
-                </li>
-                <li
-                  className="hover:text-sky-800 duration-300"
-                  onClick={() => setNav(false)}
-                >
-                  About Us
-                </li>
-                <li
-                  className="hover:text-sky-800 duration-300"
-                  onClick={() => setNav(false)}
-                >
-                  Services
-                </li>
-                <li
-                  className="hover:text-sky-800 duration-300"
-                  onClick={() => setNav(false)}
-                >
-                  Portfolio
-                </li>
-                <li
-                  className=" duration-300 hover:bg-sky-900 bg-sky-800 py-2 px-5 rounded-lg text-white"
-                  onClick={() => setNav(false)}
-                >
-                  <i className="fa-solid fa-phone mr-2"></i>Contact
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div
+            className={`bg-gray-300 absolute w-2/3 h-screen top-0 right-0 duration-150 flex justify-center items-center drop-shadow-xl z-10 ${
+              nav ? "translate-x-0" : "translate-x-full"
+            } `}
+          >
+            <ul className="flex flex-col items-center cursor-pointer">
+              <li
+                className="hover:text-sky-800 duration-300"
+                onClick={() => setNav(false)}
+              >
+                Home
+              </li>
+              <li
+                className="hover:text-sky-800 duration-300"
+                onClick={() => setNav(false)}
+              >
+                About Us
+              </li>
+              <li
+                className="hover:text-sky-800 duration-300"
+                onClick={() => setNav(false)}
+              >
+                Services
+              </li>
+              <li
+                className="hover:text-sky-800 duration-300"
+                onClick={() => setNav(false)}
+              >
+                Portfolio
+              </li>
+              <li
+                className=" duration-300 hover:bg-sky-900 bg-sky-800 py-2 px-5 rounded-lg text-white"
+                onClick={() => setNav(false)}
+              >
+                <i className="fa-solid fa-phone mr-2"></i>Contact
+              </li>
+            </ul>
           </div>
         </div>
       </div>
