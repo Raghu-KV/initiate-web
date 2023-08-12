@@ -23,7 +23,7 @@ function NavBar() {
       <div className="container px-5 mx-auto flex items-center justify-between md:justify-start font-semibold h-20">
         <div className="cursor-pointer mr-24">LOGO</div>
         <div className="hidden md:flex md:items-center w-full">
-          <ul className="flex cursor-pointer gap-3">
+          <ul className="flex cursor-pointer gap-5">
             <li className="hover:text-sky-800 duration-300">Home</li>
             <li className="hover:text-sky-800 duration-300">About Us</li>
             <li className="hover:text-sky-800 duration-300">Services</li>
@@ -48,7 +48,7 @@ function NavBar() {
               nav ? "translate-x-0" : "translate-x-full"
             } `}
           >
-            <ul className="flex flex-col items-center cursor-pointer">
+            <ul className="flex flex-col items-center cursor-pointer gap-5">
               <li
                 className="hover:text-sky-800 duration-300"
                 onClick={() => setNav(false)}
