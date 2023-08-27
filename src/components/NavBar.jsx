@@ -21,15 +21,16 @@ function NavBar() {
 
   return (
     <nav className="bg-gray-300 fixed w-full">
-      <div className="container px-5 mx-auto flex items-center justify-between md:justify-start font-semibold h-20">
+      <div className="container px-5 mx-auto flex items-center justify-between md:justify-start font-semibold min-h-20 py-5">
         <div className="cursor-pointer mr-24">
-          <Logo className="w-10" />
+          <Logo className="w-36" />
         </div>
         <div className="hidden md:flex md:items-center w-full">
           <ul className="flex cursor-pointer gap-5">
             <li className="hover:text-sky-800 duration-300">Home</li>
             <li className="hover:text-sky-800 duration-300">About Us</li>
             <li className="hover:text-sky-800 duration-300">Services</li>
+            <li className="hover:text-sky-800 duration-300">Portfolio</li>
           </ul>
           <div className="cursor-pointer hover:bg-sky-900 duration-300 bg-sky-800 py-2 px-5 rounded-lg text-white ml-auto">
             <i className="fa-solid fa-phone mr-2"></i>

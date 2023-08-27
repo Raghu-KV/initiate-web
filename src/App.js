@@ -1,15 +1,20 @@
-import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
-import AboutUs from "./components/AboutUs";
-import Services from "./components/Services";
+import AboutUs from "./pages/AboutUs";
+
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <NavBar />
-      <HeroSection />
-      <AboutUs />
-      <Services />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+      </Routes>
+
+      <Footer />
     </div>
   );
 }
