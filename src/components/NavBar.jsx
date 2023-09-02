@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { ReactComponent as Logo } from "../asset/logo.svg";
+import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -19,17 +21,25 @@ function NavBar() {
     };
   });
 
+  const navigate = useNavigate();
+
   return (
-    <nav className="bg-gray-300 fixed w-full">
+    <nav className="bg-gray-300 fixed w-full z-10">
       <div className="container px-5 mx-auto flex items-center justify-between md:justify-start font-semibold min-h-20 py-5">
         <div className="cursor-pointer mr-24">
           <Logo className="w-36" />
         </div>
         <div className="hidden md:flex md:items-center w-full">
           <ul className="flex cursor-pointer gap-5">
-            <li className="hover:text-sky-800 duration-300">Home</li>
-            <li className="hover:text-sky-800 duration-300">About Us</li>
-            <li className="hover:text-sky-800 duration-300">Services</li>
+            <li className="hover:text-sky-800 duration-300">
+              <Link to={"/"}>Home</Link>
+            </li>
+            <li className="hover:text-sky-800 duration-300">
+              <Link to={"/aboutUs"}>About Us</Link>
+            </li>
+            <li className="hover:text-sky-800 duration-300">
+              <Link to={"/services"}>Services</Link>
+            </li>
             <li className="hover:text-sky-800 duration-300">Portfolio</li>
           </ul>
           <div className="cursor-pointer hover:bg-sky-900 duration-300 bg-sky-800 py-2 px-5 rounded-lg text-white ml-auto">
@@ -55,13 +65,19 @@ function NavBar() {
             <ul className="flex flex-col items-center cursor-pointer gap-5">
               <li
                 className="hover:text-sky-800 duration-300"
-                onClick={() => setNav(false)}
+                onClick={() => {
+                  setNav(false);
+                  navigate("/");
+                }}
               >
                 Home
               </li>
               <li
                 className="hover:text-sky-800 duration-300"
-                onClick={() => setNav(false)}
+                onClick={() => {
+                  setNav(false);
+                  navigate("/aboutUs");
+                }}
               >
                 About Us
               </li>

@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router";
+
 function AboutUs() {
+  const navigate = useNavigate();
   return (
     <div className="bg-gray-300 grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className=" flex flex-col items-center justify-center mt-6 md:mt-0">
@@ -18,7 +21,10 @@ function AboutUs() {
           adipisci rerum vitae tempore quia doloribus magni, reprehenderit
           nostrum et saepe molestiae, dolorum recusandae ut officia?z
         </p>
-        <button className="px-3 py-2 font-bold text-gray-300 rounded-lg hover:scale-105 duration-300 block mx-auto bg-sky-800 mt-6">
+        <button
+          className="px-3 py-2 font-bold text-gray-300 rounded-lg hover:scale-105 duration-300 block mx-auto bg-sky-800 mt-6"
+          onClick={() => navigate("/aboutUs")}
+        >
           Read More...
         </button>
       </div>

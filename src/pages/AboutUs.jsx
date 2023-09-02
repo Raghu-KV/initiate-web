@@ -1,18 +1,38 @@
 import { SiPhp } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { BiLogoJava } from "react-icons/bi";
+import { SiJavascript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiAngular } from "react-icons/si";
+import { SiPython } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiLaravel } from "react-icons/si";
+import { SiWordpress } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
+import { SiAndroid } from "react-icons/si";
+import { SiThreedotjs } from "react-icons/si";
 
 function AboutUs() {
   const technology = [
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
-    { name: "php", icon: <SiPhp size={"5rem"} /> },
+    { name: "php", icon: <SiPhp size={"3rem"} /> },
+    { name: "react", icon: <SiReact size={"3rem"} /> },
+    { name: "java", icon: <BiLogoJava size={"3rem"} /> },
+    { name: "javascript", icon: <SiJavascript size={"3rem"} /> },
+    { name: "nextJs", icon: <SiNextdotjs size={"3rem"} /> },
+    { name: "tailwind", icon: <SiTailwindcss size={"3rem"} /> },
+    { name: "angular", icon: <SiAngular size={"3rem"} /> },
+    { name: "pytab", icon: <SiPython size={"3rem"} /> },
+    { name: "express", icon: <SiExpress size={"3rem"} /> },
+    { name: "mySQL", icon: <SiMysql size={"3rem"} /> },
+    { name: "monogo", icon: <SiMongodb size={"3rem"} /> },
+    { name: "laravel", icon: <SiLaravel size={"3rem"} /> },
+    { name: "wordPress", icon: <SiWordpress size={"3rem"} /> },
+    { name: "flutter", icon: <SiFlutter size={"3rem"} /> },
+    { name: "native", icon: <SiAndroid size={"3rem"} /> },
+    { name: "three", icon: <SiThreedotjs size={"3rem"} /> },
   ];
   return (
     <div className="container mx-auto px-5">
@@ -30,60 +50,6 @@ function AboutUs() {
         maxime, facere blanditiis repellat corrupti perspiciatis, illo
         doloremque error tempora ducimus cum alias reprehenderit adipisci
         laborum tempore nostrum nam ea ut porro velit molestias. Voluptates.
-        Illo distinctio possimus tempore voluptatibus sed aspernatur pariatur
-        inventore quae suscipit, earum assumenda vero beatae vitae! Adipisci,
-        odit perspiciatis! Odio laborum totam aperiam id, placeat at. Dolorum
-        architecto aliquid harum. Illum, doloribus! Velit quam aliquid,
-        repellendus rerum nemo perspiciatis odio sed mollitia cupiditate?
-        Facilis, dolorem magnam eligendi, porro provident dicta ab mollitia
-        voluptas dolor ipsa accusantium fugiat molestiae, fuga atque. Voluptas,
-        tempore nobis deleniti veritatis debitis doloribus numquam, facilis
-        repellat dicta eos officia sunt inventore rem provident consectetur
-        temporibus dolor animi adipisci cumque ad, blanditiis fugit. Totam vitae
-        cum voluptatibus! Aut eligendi est consectetur, itaque nisi quae
-        adipisci reprehenderit placeat consequatur illo ipsum porro dolorum
-        temporibus delectus quisquam doloribus ex mollitia ea maxime. Hic
-        inventore dicta unde, cum aliquam consequuntur. Maxime, maiores deleniti
-        quibusdam totam distinctio asperiores illum dolorum? Quam, dolorum
-        temporibus ipsum, ab distinctio minus possimus vero incidunt rem
-        perspiciatis officiis, a fugit tempore commodi. Quis, distinctio saepe?
-        Amet! Maiores officiis, ut ipsa suscipit sunt est minima ex molestias
-        commodi! Consectetur sed ipsum deserunt, vitae neque exercitationem
-        delectus impedit iste nulla quod cupiditate vel odio enim dicta. Eius,
-        ad? Magni dolores nisi perspiciatis soluta velit. Necessitatibus optio
-        voluptate consequuntur totam hic iusto earum reprehenderit. Ipsa
-        blanditiis omnis alias doloremque est corrupti nobis, similique, error
-        quis vel harum porro dignissimos. Accusantium nostrum asperiores
-        incidunt excepturi quia eaque? Molestiae ut ullam molestias quas earum,
-        deserunt quos neque laudantium minima suscipit odit distinctio soluta
-        cupiditate et quasi rem laboriosam, mollitia aspernatur. Alias. Aliquam
-        excepturi, et eveniet ipsa nihil sequi at aspernatur soluta labore
-        beatae odit impedit nam fugiat eius saepe repudiandae dolorum suscipit
-        expedita voluptatum ipsam deserunt fugit ea. Ducimus, veritatis? Fuga.
-        Ducimus, autem. Quibusdam, officiis dolore, natus nulla eum itaque
-        doloribus ut reiciendis distinctio, illo eius error tempora harum
-        voluptate culpa perspiciatis aliquam consectetur atque illum explicabo
-        est cum optio! Ipsam. Vero voluptatum ab sunt, impedit culpa quidem
-        possimus, eos voluptatibus dolor dolorum eligendi deleniti
-        exercitationem laborum reprehenderit? Hic, beatae possimus recusandae
-        placeat doloribus enim maxime facere magnam assumenda dolore libero.
-        Quis sunt facere accusantium possimus? Perspiciatis, voluptatum
-        asperiores iste iure laboriosam quis, vitae numquam doloremque minus
-        maxime non mollitia odio modi quibusdam voluptate quidem pariatur labore
-        voluptates repellendus a doloribus! Provident, autem optio eligendi
-        laborum assumenda enim, animi aut totam culpa consequatur ipsam
-        accusamus iure. Excepturi facilis voluptatem ipsam beatae, porro
-        recusandae exercitationem, voluptas qui incidunt maiores voluptatum
-        nesciunt minus. Nostrum eum quo perspiciatis rem, dicta consectetur
-        excepturi tenetur quae eveniet, corrupti inventore repudiandae esse est
-        odio quas assumenda facilis ullam debitis! Recusandae culpa suscipit
-        illo veritatis delectus mollitia pariatur. Perspiciatis dignissimos
-        reprehenderit et laborum voluptas, fugit aut dolores ex deserunt magnam
-        similique cum laudantium molestiae minima, officiis eius eveniet
-        obcaecati facere quisquam, saepe illo recusandae repellendus aperiam
-        culpa! Distinctio. Tenetur voluptatibus corporis nihil nisi, provident,
-        sint, voluptatum cum autem necessitatibus adipisci libero distinctio
-        placeat aperiam eaque sapiente fugit eum! Laborum, eius officiis
         voluptate minima explicabo maiores laboriosam ullam debitis. Officia
         ratione optio, distinctio fugit suscipit, possimus natus nesciunt, fuga
       </p>
@@ -108,10 +74,10 @@ function AboutUs() {
         assumenda sit, nobis voluptate alias similique quas fuga! Architecto
         commodi voluptates odio quibusdam saepe nemo possimus laborum!{" "}
       </p>
-      <p className="font-bold text-sky-800 pt-8 text-xl text-center">
+      <p className="font-bold text-sky-800 pt-8 text-xl text-center mb-4  ">
         Technology we use
       </p>
-      <div className="flex gap-5 flex-wrap justify-center">
+      <div className="flex gap-12 flex-wrap justify-center mb-8">
         {technology.map((item) => (
           <div key={item.name} className="text-gray-500 hover:text-sky-800">
             {item.icon}

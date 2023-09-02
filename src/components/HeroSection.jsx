@@ -12,9 +12,6 @@ function HeroSection() {
           quasi, accusamus pariatur accusantium voluptatibus unde autem quidem
           praesentium cum cumque vero impedit.
         </p>
-        <button className="px-3 py-2 font-bold bg-white rounded-lg hover:scale-105 duration-300">
-          Read More...
-        </button>
       </div>
     </div>
   );
