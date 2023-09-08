@@ -1,4 +1,4 @@
-import SingleServices from "../components/SingleServices";
+import SingleContact from "../components/SingleContact";
 import { FaPenNib } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
@@ -7,6 +7,7 @@ import { TfiMicrosoftAlt } from "react-icons/tfi";
 import { MdWorkOutline } from "react-icons/md";
 import { AiOutlineAppstore } from "react-icons/ai";
 import { MdOutlineVideoChat } from "react-icons/md";
+
 function Contact() {
   const service = [
     {
@@ -35,12 +36,12 @@ function Contact() {
   return (
     <div className="container mx-auto px-5 md:h-screen flex flex-col justify-center">
       <div className=" flex flex-col items-center justify-center pt-28">
-        <p className="text-sky-800 font-bold">We are</p>
-        <p className="text-black text-2xl font-bold">Good @</p>
+        <p className="text-sky-800 font-bold">For</p>
+        <p className="text-black text-2xl font-bold">More Info</p>
       </div>
-      <div className=" grid grid-cols-2 md:grid-cols-3 gap-5 mt-16 mb-16">
+      <div className=" flex flex-wrap justify-between gap-5 mt-16 mb-16">
         {service.map((item) => (
-          <SingleServices item={item} />
+          <SingleContact item={item} />
         ))}
       </div>
     </div>
