@@ -28,7 +28,7 @@ function Portfolio() {
   return (
     <div className="container mx-auto px-5">
       <div className=" flex flex-col items-center justify-center pt-28">
-        <p className="text-sky-800 font-bold">We are</p>
+        <p className="text-[#3953A2] font-bold">We are</p>
         <p className="text-black text-2xl font-bold">Good @</p>
       </div>
 

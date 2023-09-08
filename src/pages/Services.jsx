@@ -39,7 +39,7 @@ function Services() {
   return (
     <div className="container mx-auto px-5 md:h-screen flex flex-col justify-center">
       <div className=" flex flex-col items-center justify-center pt-28">
-        <p className="text-sky-800 font-bold">We are</p>
+        <p className="text-[#3953A2] font-bold">We are</p>
         <p className="text-black text-2xl font-bold">Good @</p>
       </div>
       <div className=" grid grid-cols-2 md:grid-cols-3 gap-5 mt-16 mb-16">

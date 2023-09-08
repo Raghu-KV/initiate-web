@@ -86,7 +86,7 @@ function AboutUs() {
   ];
   return (
     <div className="container mx-auto px-5">
-      <p className="font-bold text-sky-800 pt-28 text-xl text-center">
+      <p className="font-bold text-[#3953A2] pt-28 text-xl text-center">
         Something About Us
       </p>
       <p className="mt-3 text-justify">
@@ -124,12 +124,12 @@ function AboutUs() {
         assumenda sit, nobis voluptate alias similique quas fuga! Architecto
         commodi voluptates odio quibusdam saepe nemo possimus laborum!{" "}
       </p>
-      <p className="font-bold text-sky-800 pt-8 text-xl text-center mb-4">
+      <p className="font-bold text-[#3953A2] pt-8 text-xl text-center mb-4">
         Technology we use
       </p>
       <div className="flex gap-12 flex-wrap justify-center items-center item mb-8">
         {technology.map((item) => (
-          <div className="flex flex-col justify-center items-center border-sky-800 rounded-lg duration-200 p-8 min-w-[250px]  hover:scale-125">
+          <div className="flex flex-col justify-center items-center border-[#3953A2] rounded-lg duration-200 p-8 min-w-[250px]  hover:scale-125">
             {item.icon}
 
             <p className="text-center mt-3 font-bold text-gray-500">

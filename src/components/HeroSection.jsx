@@ -1,7 +1,7 @@
 function HeroSection() {
   return (
     <div className="flex h-screen justify-center items-center ">
-      <div className="bg-gray-800 md:h-4/6 w-5/6 mt-20 rounded-3xl flex flex-col justify-center items-center gap-10 px-6 py-10">
+      <div className="bg-[#3953A2] md:h-4/6 w-5/6 mt-20 rounded-3xl flex flex-col justify-center items-center gap-10 px-6 py-10">
         <h1 className="font-bold text-6xl text-white text-center">
           {" "}
           lorem ipsum
