@@ -1,4 +1,4 @@
-import SingleServices from "./SingleServices";
+import SingleServices from "../components/SingleServices";
 import { FaPenNib } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
@@ -6,6 +6,7 @@ import { IoAppsOutline } from "react-icons/io";
 import { TfiMicrosoftAlt } from "react-icons/tfi";
 import { MdWorkOutline } from "react-icons/md";
 import { AiOutlineAppstore } from "react-icons/ai";
+import { MdOutlineVideoChat } from "react-icons/md";
 function Services() {
   const service = [
     {
@@ -17,16 +18,17 @@ function Services() {
       icon: <BsGraphUpArrow size={"2.5rem"} />,
     },
     {
-      name: "Web Development",
+      name: "Development",
       icon: <AiOutlineGlobal size={"2.5rem"} />,
     },
-    {
-      name: "App Development",
-      icon: <AiOutlineAppstore size={"2.5rem"} />,
-    },
+
     {
       name: "Software",
       icon: <TfiMicrosoftAlt size={"2.5rem"} />,
+    },
+    {
+      name: "Visuals",
+      icon: <MdOutlineVideoChat size={"2.5rem"} />,
     },
     {
       name: "Training",

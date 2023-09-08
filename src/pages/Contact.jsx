@@ -7,32 +7,28 @@ import { TfiMicrosoftAlt } from "react-icons/tfi";
 import { MdWorkOutline } from "react-icons/md";
 import { AiOutlineAppstore } from "react-icons/ai";
 import { MdOutlineVideoChat } from "react-icons/md";
-function Services() {
+function Contact() {
   const service = [
     {
-      name: "Graphic Design",
+      name: "Mobile",
+      detail: "+91 97919 31490",
       icon: <FaPenNib size={"2.5rem"} />,
     },
     {
-      name: "Digital Marketing",
+      name: "E-Mail",
+      detail: "initiate.mindturrn@gmail.com",
       icon: <BsGraphUpArrow size={"2.5rem"} />,
     },
     {
-      name: "Development",
+      name: "Working Hours",
+      detail: "9:30am - 6:00pm",
       icon: <AiOutlineGlobal size={"2.5rem"} />,
     },
-
     {
-      name: "Software",
-      icon: <TfiMicrosoftAlt size={"2.5rem"} />,
-    },
-    {
-      name: "Visuals",
-      icon: <MdOutlineVideoChat size={"2.5rem"} />,
-    },
-    {
-      name: "Training",
-      icon: <MdWorkOutline size={"2.5rem"} />,
+      name: "Address Location",
+      detail:
+        "18/13 2nd floor, APS complex, Nalli Hospital Road, Bustand(opp) Erode-638004",
+      icon: <AiOutlineGlobal size={"2.5rem"} />,
     },
   ];
 
@@ -51,4 +47,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Contact;

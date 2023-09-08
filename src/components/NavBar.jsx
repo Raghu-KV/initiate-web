@@ -40,11 +40,16 @@ function NavBar() {
             <li className="hover:text-sky-800 duration-300">
               <Link to={"/services"}>Services</Link>
             </li>
-            <li className="hover:text-sky-800 duration-300">Portfolio</li>
+            <li className="hover:text-sky-800 duration-300">
+              <Link to={"/portfolio"}>Portfolio</Link>
+            </li>
           </ul>
           <div className="cursor-pointer hover:bg-sky-900 duration-300 bg-sky-800 py-2 px-5 rounded-lg text-white ml-auto">
             <i className="fa-solid fa-phone mr-2"></i>
-            <span className="">Contact</span>
+            <span className="">
+              {" "}
+              <Link to={"/contact"}>Contact</Link>
+            </span>
           </div>
         </div>
         <div ref={navRef}>
@@ -83,19 +88,28 @@ function NavBar() {
               </li>
               <li
                 className="hover:text-sky-800 duration-300"
-                onClick={() => setNav(false)}
+                onClick={() => {
+                  setNav(false);
+                  navigate("/services");
+                }}
               >
                 Services
               </li>
               <li
                 className="hover:text-sky-800 duration-300"
-                onClick={() => setNav(false)}
+                onClick={() => {
+                  setNav(false);
+                  navigate("/portfolio");
+                }}
               >
                 Portfolio
               </li>
               <li
                 className=" duration-300 hover:bg-sky-900 bg-sky-800 py-2 px-5 rounded-lg text-white"
-                onClick={() => setNav(false)}
+                onClick={() => {
+                  setNav(false);
+                  navigate("/contact");
+                }}
               >
                 <i className="fa-solid fa-phone mr-2"></i>Contact
               </li>

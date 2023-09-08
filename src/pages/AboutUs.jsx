@@ -14,25 +14,75 @@ import { SiWordpress } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 import { SiAndroid } from "react-icons/si";
 import { SiThreedotjs } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 function AboutUs() {
   const technology = [
-    { name: "php", icon: <SiPhp size={"3rem"} /> },
-    { name: "react", icon: <SiReact size={"3rem"} /> },
-    { name: "java", icon: <BiLogoJava size={"3rem"} /> },
-    { name: "javascript", icon: <SiJavascript size={"3rem"} /> },
-    { name: "nextJs", icon: <SiNextdotjs size={"3rem"} /> },
-    { name: "tailwind", icon: <SiTailwindcss size={"3rem"} /> },
-    { name: "angular", icon: <SiAngular size={"3rem"} /> },
-    { name: "pytab", icon: <SiPython size={"3rem"} /> },
-    { name: "express", icon: <SiExpress size={"3rem"} /> },
-    { name: "mySQL", icon: <SiMysql size={"3rem"} /> },
-    { name: "monogo", icon: <SiMongodb size={"3rem"} /> },
-    { name: "laravel", icon: <SiLaravel size={"3rem"} /> },
-    { name: "wordPress", icon: <SiWordpress size={"3rem"} /> },
-    { name: "flutter", icon: <SiFlutter size={"3rem"} /> },
-    { name: "native", icon: <SiAndroid size={"3rem"} /> },
-    { name: "three", icon: <SiThreedotjs size={"3rem"} /> },
+    { name: "php", icon: <SiPhp size={"3rem"} className="text-gray-500" /> },
+    {
+      name: "react",
+      icon: <SiReact size={"3rem"} className="text-gray-500 " />,
+    },
+    {
+      name: "java",
+      icon: <BiLogoJava size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "javascript",
+      icon: <SiJavascript size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "next js",
+      icon: <SiNextdotjs size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "tailwind",
+      icon: <SiTailwindcss size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "angular",
+      icon: <SiAngular size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "pytab",
+      icon: <SiPython size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "express",
+      icon: <SiExpress size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "mySQL",
+      icon: <SiMysql size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "monogo",
+      icon: <SiMongodb size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "laravel",
+      icon: <SiLaravel size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "wordPress",
+      icon: <SiWordpress size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "flutter",
+      icon: <SiFlutter size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "native",
+      icon: <SiAndroid size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "three js",
+      icon: <SiThreedotjs size={"3rem"} className="text-gray-500" />,
+    },
+    {
+      name: "AWS",
+      icon: <FaAws size={"3rem"} className="text-gray-500" />,
+    },
   ];
   return (
     <div className="container mx-auto px-5">
@@ -74,13 +124,17 @@ function AboutUs() {
         assumenda sit, nobis voluptate alias similique quas fuga! Architecto
         commodi voluptates odio quibusdam saepe nemo possimus laborum!{" "}
       </p>
-      <p className="font-bold text-sky-800 pt-8 text-xl text-center mb-4  ">
+      <p className="font-bold text-sky-800 pt-8 text-xl text-center mb-4">
         Technology we use
       </p>
-      <div className="flex gap-12 flex-wrap justify-center mb-8">
+      <div className="flex gap-12 flex-wrap justify-center items-center item mb-8">
         {technology.map((item) => (
-          <div key={item.name} className="text-gray-500 hover:text-sky-800">
+          <div className="flex flex-col justify-center items-center border-sky-800 rounded-lg duration-200 p-8 min-w-[250px]  hover:scale-125">
             {item.icon}
+
+            <p className="text-center mt-3 font-bold text-gray-500">
+              {item.name}
+            </p>
           </div>
         ))}
       </div>
