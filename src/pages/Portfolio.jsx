@@ -77,18 +77,18 @@ function Portfolio() {
       name: "Graphic Design",
       icon: <img src={PortfolioImage15} className="rounded-xl" />,
     },
-    {
-      name: "Digital Marketing",
-    },
-    {
-      name: "Web Development",
-    },
-    {
-      name: "App Development",
-    },
-    {
-      name: "Software",
-    },
+    // {
+    //   name: "Digital Marketing",
+    // },
+    // {
+    //   name: "Web Development",
+    // },
+    // {
+    //   name: "App Development",
+    // },
+    // {
+    //   name: "Software",
+    // },
     // {
     //   name: "Training",
     //   icon: <MdWorkOutline size={"2.5rem"} />,
