@@ -102,7 +102,7 @@ function Portfolio() {
         <p className="text-black text-2xl font-bold">Good @</p>
       </div>
 
-      <div className=" grid grid-cols-2 md:grid-cols-4 gap-10 mt-5 mb-5">
+      <div className=" grid grid-cols-1 md:grid-cols-4 gap-10 mt-5 mb-5">
         {service.map((item) => (
           <SinglePortfolio item={item} />
         ))}
