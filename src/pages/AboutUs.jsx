@@ -90,39 +90,44 @@ function AboutUs() {
         Something About Us
       </p>
       <p className="mt-3 text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-        blanditiis id exercitationem doloribus sit tempora soluta ut aliquid
-        explicabo illum a dicta excepturi, praesentium quam perferendis qui
-        expedita ab non. Sed rem, ad aperiam, ullam deserunt reiciendis modi
-        temporibus alias autem consectetur voluptate optio. Necessitatibus modi
-        sed natus id in incidunt quaerat. Consequatur, quam odit? Nihil,
-        provident. Maiores, impedit sint. Quis eaque repudiandae optio accusamus
-        maxime, facere blanditiis repellat corrupti perspiciatis, illo
-        doloremque error tempora ducimus cum alias reprehenderit adipisci
-        laborum tempore nostrum nam ea ut porro velit molestias. Voluptates.
-        voluptate minima explicabo maiores laboriosam ullam debitis. Officia
-        ratione optio, distinctio fugit suscipit, possimus natus nesciunt, fuga
+        Make your special event unforgettable with our video invitation reel
+        editing service. Our skilled editors will transform your footage into a
+        professionally edited video invitation that will impress your guests and
+        set the tone for your event. Designing a video invitation involves
+        combining visuals, text, and possibly music or narration to create an
+        engaging and informative invitation for an event or occasion. These
+        videos can be used for a variety of events, such as weddings, birthdays,
+        parties, conferences, or corporate gatherings. They serve as a creative
+        and innovative way to grab the attention of recipients and make the
+        invitation more memorable. Pay attention to trends – Reels Editing
+        Editing reels, especially for platforms like Instagram Reels, TikTok, or
+        other short video platforms, involves creating engaging and
+        attention-grabbing content within a short time frame. We have experience
+        working with different genres and can help create a polished reel for
+        you. Contact Us to discuss your needs and pricing. Reels editing
+        services typically involve editing and compiling footage to create a
+        succinct and visually appealing reel that showcases the highlights of a
+        person's work or a specific project. These services can be useful for
+        actors, filmmakers, videographers, dancers, models, and various other
+        professionals in creative industries. Unveil your brand with Logo Reveal
+        Animation Your logo is the face of your brand, and we'll help you make
+        it memorable. Our talented animators will create a captivating logo
+        reveal animation that showcases the essence of your brand, leaving a
+        lasting impression on anyone who sees it. Logo reveal animations are a
+        great way to make your brand's logo more dynamic and engaging. These
+        animations can be used in videos, presentations, websites, and more to
+        create a memorable and professional impression.
       </p>
       <p className="text-justify mt-5">
         {" "}
-        eum rem minus voluptates! Quisquam, odit hic. Quos, doloremque, ut autem
-        ratione ad ullam eveniet deleniti ipsam officiis nesciunt saepe?
-        Consequatur doloremque qui cupiditate fugit? Id ducimus illo esse quam
-        deleniti blanditiis eius tenetur molestiae magnam alias. Unde dolorum
-        vel nesciunt facere. Veniam eveniet ad numquam ab eum cupiditate. Eius?
-        Quos quod officia dolorem, enim, libero doloremque tempore minima
-        aspernatur ullam commodi non nisi blanditiis. Eum, aspernatur
-        necessitatibus mollitia ab, illo, dolores culpa at aut consequatur eius
-        cum blanditiis beatae. Sunt blanditiis distinctio, voluptatem, dolorem
-        nobis ipsam nisi est corrupti cumque aliquid ullam unde optio, at quia
-        veniam fuga minima beatae. Atque veniam animi possimus hic neque modi
-        aut ab. Reprehenderit, facilis voluptas nemo, qui reiciendis perferendis
-        fugit fugiat rem minima ipsum odit. Quas, cum? At nisi libero excepturi
-        dolore doloribus assumenda totam! Molestiae reprehenderit praesentium
-        inventore ipsa eum quo. Explicabo, illum. Unde provident adipisci
-        reprehenderit perferendis impedit ad velit aspernatur sequi voluptatem
-        assumenda sit, nobis voluptate alias similique quas fuga! Architecto
-        commodi voluptates odio quibusdam saepe nemo possimus laborum!{" "}
+        Unveil your brand with Logo Reveal Animation Your logo is the face of
+        your brand, and we'll help you make it memorable. Our talented animators
+        will create a captivating logo reveal animation that showcases the
+        essence of your brand, leaving a lasting impression on anyone who sees
+        it. Logo reveal animations are a great way to make your brand's logo
+        more dynamic and engaging. These animations can be used in videos,
+        presentations, websites, and more to create a memorable and professional
+        impression.
       </p>
       <p className="font-bold text-[#3953A2] pt-8 text-xl text-center mb-4">
         Technology we use

@@ -10,17 +10,16 @@ function AboutUs() {
       </div>
       <div className="px-10 md:py-14 py-3 text-justify">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-          iusto, quae iste nesciunt aliquam architecto voluptatibus cum?
-          Molestias repellat minima, itaque quae error possimus blanditiis natus
-          debitis, beatae omnis ipsum!
+          Unveil your brand with Logo Reveal Animation Your logo is the face of
+          your brand, and we'll help you make it memorable. Our talented
+          animators will create a captivating logo reveal animation that
+          showcases the essence of your brand, leaving a lasting impression on
+          anyone who sees it. Logo reveal animations are a great way to make
+          your brand's logo more dynamic and engaging. These animations can be
+          used in videos, presentations, websites, and more to create a
+          memorable and professional impression.
         </p>
-        <p className="mt-10">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit, molestiae praesentium. Soluta, cupiditate inventore
-          adipisci rerum vitae tempore quia doloribus magni, reprehenderit
-          nostrum et saepe molestiae, dolorum recusandae ut officia?z
-        </p>
+
         <button
           className="px-3 py-2 font-bold text-gray-300 rounded-lg hover:scale-105 duration-300 block mx-auto bg-[#3953A2] mt-6"
           onClick={() => navigate("/aboutUs")}
