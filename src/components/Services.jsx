@@ -14,27 +14,33 @@ function Services() {
     {
       name: "Graphic Design",
       icon: <FaPenNib size={"2.5rem"} />,
+      nav: "/services/graphicDesign",
     },
     {
       name: "Digital Marketing",
       icon: <BsGraphUpArrow size={"2.5rem"} />,
+      nav: "/services/digitalMarketing",
     },
     {
       name: "Development",
       icon: <BiCode size={"2.5rem"} />,
+      nav: "/services/development",
     },
 
     {
       name: "Software",
       icon: <TfiMicrosoftAlt size={"2.5rem"} />,
+      nav: "/services/software",
     },
     {
       name: "Visuals",
       icon: <MdOutlineVideoChat size={"2.5rem"} />,
+      nav: "/services/visual",
     },
     {
       name: "Training",
       icon: <BsBook size={"2.5rem"} />,
+      nav: "/services/intern",
     },
   ];
 

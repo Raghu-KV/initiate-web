@@ -7,32 +7,40 @@ import { TfiMicrosoftAlt } from "react-icons/tfi";
 import { MdWorkOutline } from "react-icons/md";
 import { AiOutlineAppstore } from "react-icons/ai";
 import { MdOutlineVideoChat } from "react-icons/md";
+import { BiCode } from "react-icons/bi";
+import { BsBook } from "react-icons/bs";
 function Services() {
   const service = [
     {
       name: "Graphic Design",
       icon: <FaPenNib size={"2.5rem"} />,
+      nav: "/services/graphicDesign",
     },
     {
       name: "Digital Marketing",
       icon: <BsGraphUpArrow size={"2.5rem"} />,
+      nav: "/services/digitalMarketing",
     },
     {
       name: "Development",
-      icon: <AiOutlineGlobal size={"2.5rem"} />,
+      icon: <BiCode size={"2.5rem"} />,
+      nav: "/services/development",
     },
 
     {
       name: "Software",
       icon: <TfiMicrosoftAlt size={"2.5rem"} />,
+      nav: "/services/software",
     },
     {
       name: "Visuals",
       icon: <MdOutlineVideoChat size={"2.5rem"} />,
+      nav: "/services/visual",
     },
     {
       name: "Training",
-      icon: <MdWorkOutline size={"2.5rem"} />,
+      icon: <BsBook size={"2.5rem"} />,
+      nav: "/services/intern",
     },
   ];
 
