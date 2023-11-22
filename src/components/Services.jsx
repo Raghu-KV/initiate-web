@@ -47,8 +47,10 @@ function Services() {
   return (
     <div className="container mx-auto px-5">
       <div className=" flex flex-col items-center justify-center mt-6">
-        <p className="text-[#3953A2] font-bold">We are</p>
-        <p className="text-black text-2xl font-bold">Good @</p>
+        <p className="text-[#3953A2] font-bold">
+          We are{" "}
+          <span className="text-black text-2xl font-bold pl-2">Good @</span>{" "}
+        </p>
       </div>
       <div className=" grid grid-cols-2 md:grid-cols-3 gap-5 mt-5 mb-5">
         {service.map((item) => (

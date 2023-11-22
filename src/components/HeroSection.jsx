@@ -8,9 +8,8 @@ function HeroSection() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <h1 className="font-bold text-4xl md:text-6xl text-center text-[#3953A2]">
-        {" "}
-        Take Your Business to New Heights with Us
+      <h1 className="font-bold text-4xl md:text-6xl text-center text-[#3953A2] w-[50%]">
+        Take Your Business To New Heights With Us
       </h1>
       <p className="font-light w-72 md:w-[45rem] text-center text-[#3953A2]">
         Your One-Stop Solution for App Development, Web Development, and Digital
