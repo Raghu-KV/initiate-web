@@ -23,7 +23,7 @@ function Footer() {
       link: "#",
     },
     {
-      name: "linkedIn",
+      name: "whatApp",
       icon: <IoLogoWhatsapp size={"2rem"} />,
       link: "#",
     },
